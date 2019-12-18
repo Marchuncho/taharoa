@@ -3,5 +3,10 @@ nav {
 }
 .carousel-inner img{
   width: 100%;
-  max-height: 20rem;
+  height: 20rem;
+}
+.SizeImg {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
 }
