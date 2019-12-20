@@ -9655,19 +9655,49 @@ h3 {
     border-color: #dee2e6;
   }
 }
-nav {
-  background-color: #99FF33;
-}
-
 .carousel-inner img {
   width: 100%;
   height: 20rem;
 }
 
-.SizeImg {
-  object-fit: cover;
-  height: 100%;
+nav {
+  background-color: #99FF33;
+}
+
+.instructora__sol {
+  display: flex;
+  justify-content: space-between;
+}
+.instructora__solsole {
+  height: 10rem;
+  max-width: auto;
+}
+.instructora__solkat {
+  height: 10rem;
+  max-width: auto;
+}
+.instructora__solVan {
+  height: 10rem;
+  max-width: auto;
+}
+
+.PhotographyGalery img {
   width: 100%;
+  height: 10rem;
+}
+
+.cursos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.cursosimgs {
+  height: 15rem;
+  width: auto;
+}
+.cursoscontens {
+  height: 15rem;
+  width: auto;
 }
 
 /*# sourceMappingURL=main.css.map */

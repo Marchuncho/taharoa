@@ -1,0 +1,35 @@
+.instructora__sol{
+display: flex;
+justify-content: space-between;
+&sole{
+  height: 10rem;
+  max-width: auto;
+}
+&kat{
+  height: 10rem;
+  max-width: auto;
+}
+&Van{
+  height: 10rem;
+  max-width: auto;
+}
+}
+.PhotographyGalery img{
+  width: 100%;
+  height: 10rem;
+}
+
+.cursos{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  &imgs{
+    height: 15rem;
+    width: auto;
+  }
+  &contens{
+    height: 15rem;
+    width: auto;
+  }
+}
