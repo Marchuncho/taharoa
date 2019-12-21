@@ -9700,4 +9700,13 @@ nav {
   width: auto;
 }
 
+.footer {
+  background-image: url(../images/footer2.jpg);
+  height: 10rem;
+  width: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 /*# sourceMappingURL=main.css.map */
