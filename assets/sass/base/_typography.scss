@@ -1,0 +1,30 @@
+.tittle__logo {
+  color: $white !important;
+  font-size: $x-large;
+  font-family: $playfair;
+  font-weight: $boldblack;
+}
+.tittle__links {
+  color: $white !important;
+  font-size: $large;
+  font-family: $playfair;
+  font-weight: $bold;
+}
+
+h1 {
+  color: $raisin-black;
+  font-family: $playfair;
+  font-weight: $bold;
+  font-size: $x-large;
+  text-align: center;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+p{
+  color: $eerie-black;
+  font-family: $playfair;
+  font-weight: $ligth;
+  font-size: $medium;
+  text-align: justify;
+}

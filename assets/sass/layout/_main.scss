@@ -33,3 +33,12 @@ justify-content: space-between;
     width: auto;
   }
 }
+
+.About{
+  background-color: $fondoabout !important;
+}
+.About__button{
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
