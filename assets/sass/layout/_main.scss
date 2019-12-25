@@ -12,6 +12,9 @@
 }
 .PhotographyGalery{
   background-color: $fondogalery;
+  &__presentaciones img{
+    border-radius: 25px;
+  }
 }
 .cursos{
 height: 40rem;
@@ -36,7 +39,7 @@ height: 40rem;
 }
 .About__button{
   text-align: center;
-  padding-bottom:  3rem;
+  padding:  3rem;
 
 }
 

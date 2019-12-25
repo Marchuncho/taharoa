@@ -1,18 +1,28 @@
 .button2 {
     color: $white;
-    font-size: $large;
-    background-color: $nickel;
-    border-radius: 25px;
-    border: 1px solid $eerie-black;
+    font-size: $x-large;
+    background-color: $fondoabout;
+    border-radius: 10px;
+    border: 1px solid $white;
     padding-left: 1rem;
     padding-right: 1rem;
   }
   .button1 {
       color: $white;
       font-size: $x-large;
-      background-color: $nickel;
-      border-radius: 25px;
-      border: 1px solid $eerie-black;
+      background-color: $verdoso;
+      border-radius: 10px;
+      border: 2px solid $white;
       padding-left: 1rem;
       padding-right: 1rem;
         }
+
+        .button3 {
+            color: $eerie-black;
+            font-size: $large;
+            background-color: rgba(0, 0, 0, 0.03);
+            border-radius: 10px;
+            border: 2px solid $eerie-black;
+            padding-left: 1rem;
+            padding-right: 1rem;
+              }
