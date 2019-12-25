@@ -9672,6 +9672,16 @@ h3 {
 h1 {
   color: #222323;
   font-family: "Playfair Display", serif;
+  font-weight: 900;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+h2 {
+  color: #fff;
+  font-family: "Playfair Display", serif;
   font-weight: 700;
   font-size: 30px;
   text-align: center;
@@ -9687,30 +9697,28 @@ p {
   text-align: justify;
 }
 
+h4 {
+  color: #222323;
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
 .carousel-inner img {
   width: 100%;
-  height: 20rem;
+  height: 23rem;
 }
 
 nav {
   background-color: #038C7F;
 }
 
-.instructora__sol {
-  display: flex;
-  justify-content: space-between;
-}
-.instructora__solsole {
-  height: 10rem;
-  max-width: auto;
-}
-.instructora__solkat {
-  height: 10rem;
-  max-width: auto;
-}
-.instructora__solVan {
-  height: 10rem;
-  max-width: auto;
+.Instructora {
+  background-color: #d76c69;
+  height: auto;
 }
 
 .PhotographyGalery img {
@@ -9718,18 +9726,24 @@ nav {
   height: 10rem;
 }
 
+.PhotographyGalery {
+  background-color: #94CEF2;
+}
+
 .cursos {
+  height: 40rem;
+}
+.cursos__imgs img {
+  transform: rotate(-90deg);
+  height: 15rem;
+}
+.cursos__contents {
+  background: yellow;
+  height: 15rem;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-}
-.cursosimgs {
-  height: 15rem;
-  width: auto;
-}
-.cursoscontens {
-  height: 15rem;
-  width: auto;
+  justify-content: flex-end;
+  align-items: center;
 }
 
 .About {
@@ -9738,8 +9752,18 @@ nav {
 
 .About__button {
   text-align: center;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding-bottom: 3rem;
+}
+
+.form {
+  background-color: #038C7F;
+  height: 15rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.form__contacto {
+  text-align: center;
 }
 
 .footer {
@@ -9754,6 +9778,16 @@ nav {
 .button2 {
   color: #fff;
   font-size: 18px;
+  background-color: #6c6e70;
+  border-radius: 25px;
+  border: 1px solid #121619;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.button1 {
+  color: #fff;
+  font-size: 30px;
   background-color: #6c6e70;
   border-radius: 25px;
   border: 1px solid #121619;
