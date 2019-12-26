@@ -5,4 +5,15 @@
   margin: 0;
   background-repeat: no-repeat;
   background-size: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  &__icon{
+    text-align: center;
+
+      }
+      &__icon--color{
+        color: $white;
+      }
 }
