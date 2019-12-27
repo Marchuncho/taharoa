@@ -33,8 +33,8 @@ h2 {
 
 p{
   color: $eerie-black;
-  font-family: $playfair;
-  font-weight: $ligth;
+  font-family: $monse;
+  font-weight: $medium;
   font-size: $medium;
   text-align: justify;
 }
@@ -58,7 +58,16 @@ h3{
 }
 .footer__icon p{
   color: $white;
-  font-family: $playfair;
+  font-family: $monse;
   font-size: $medium;
   font-weight: $ligth;
+}
+h5{
+  color: $raisin-black;
+  font-family: $playfair;
+  font-weight: $bold;
+  font-size: $x-large;
+  text-align: center;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }

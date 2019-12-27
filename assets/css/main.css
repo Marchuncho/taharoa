@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=Montserrat:500i&display=swap");
 /*!
  * Bootstrap v4.3.1 (https://getbootstrap.com/)
  * Copyright 2011-2019 The Bootstrap Authors
@@ -9691,8 +9692,8 @@ h2 {
 
 p {
   color: #121619;
-  font-family: "Playfair Display", serif;
-  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 16px;
   font-size: 16px;
   text-align: justify;
 }
@@ -9719,9 +9720,19 @@ h3 {
 
 .footer__icon p {
   color: #fff;
-  font-family: "Playfair Display", serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 16px;
   font-weight: 400;
+}
+
+h5 {
+  color: #222323;
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 
 .carousel-inner img {
