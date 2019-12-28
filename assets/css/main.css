@@ -9735,6 +9735,15 @@ h5 {
   padding-bottom: 3rem;
 }
 
+h6 {
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
 .carousel-inner img {
   width: 100%;
   height: 23rem;
@@ -9864,6 +9873,10 @@ nav {
   color: #fff;
 }
 
+.contacto {
+  background-color: #038C7F;
+}
+
 .button2 {
   color: #fff;
   font-size: 30px;
@@ -9886,6 +9899,16 @@ nav {
 
 .button3 {
   color: #121619;
+  font-size: 18px;
+  background-color: rgba(0, 0, 0, 0.03);
+  border-radius: 10px;
+  border: 2px solid #121619;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.button_formulario {
+  color: #fff;
   font-size: 18px;
   background-color: rgba(0, 0, 0, 0.03);
   border-radius: 10px;
