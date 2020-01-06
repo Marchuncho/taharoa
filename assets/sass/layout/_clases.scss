@@ -1,0 +1,13 @@
+.courses{
+  background-color: $rudy-pink;
+  &__info{
+    padding-bottom: 2rem;
+  }
+  &__galery img{
+    width: 100%;
+    border-radius: 20%;
+  }
+}
+iframe{
+  margin: 0;
+}
