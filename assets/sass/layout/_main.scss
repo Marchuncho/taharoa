@@ -16,8 +16,7 @@
 .cursos{
 height: 40rem;
   &__imgs img{
-
-         transform: rotate(-90deg);
+         border-radius: 25%;
          height: 15rem;
   }
   &__contents{

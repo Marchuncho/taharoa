@@ -9773,6 +9773,14 @@ li {
   text-align: center;
 }
 
+.colorLetra {
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 16px;
+  font-size: 16px;
+  text-align: center;
+}
+
 .carousel-inner img {
   width: 100%;
   height: 23rem;
@@ -9851,7 +9859,7 @@ nav {
   height: 40rem;
 }
 .cursos__imgs img {
-  transform: rotate(-90deg);
+  border-radius: 25%;
   height: 15rem;
 }
 .cursos__contents {
@@ -9918,7 +9926,7 @@ nav {
 }
 
 iframe {
-  margin: 0;
+  padding-bottom: 2rem;
 }
 
 .button2 {
