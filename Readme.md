@@ -3,13 +3,13 @@
 ##¿Es un proyecto personal o para un tercero?
 
 -	El proyecto es para un cliente que necesita
--	tener su imagen corporativa y en esa necesidad
--	aprovechar la creacion de su pagina web, para
--	la promocion para eventos sociales como de pago.
--	Esta agrupacion de baile rapa nui cumple una funcion
--	social muy importante dentro de la comuna de Pudahuel
--	ya que genera un espacio de espacirmiento fuera de lo
--	comun.
+tener su imagen corporativa y en esa necesidad
+aprovechar la creacion de su pagina web, para
+la promocion para eventos sociales como de pago.
+Esta agrupacion de baile rapa nui cumple una funcion
+social muy importante dentro de la comuna de Pudahuel
+ya que genera un espacio de espacirmiento fuera de lo
+comun.
 
 ## Descripción breve del proyecto
 
