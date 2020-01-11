@@ -45,11 +45,11 @@
 ##	Wireframe de la vista principal del proyecto.
 
 
-	![](/assets/images/taharoa.png)
+	![](assets/images/taharoa.png)
 
 ##	Logotitpo
 
-		![](/assets/images/LogotipoTaharoa.jpg)
+		![](assets/images/LogotipoTaharoa.jpg)
 
 ##	Breve guía de estilo:
 
