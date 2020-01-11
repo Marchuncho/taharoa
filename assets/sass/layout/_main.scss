@@ -16,16 +16,19 @@
 .cursos{
 height: 40rem;
   &__imgs img{
-         border-radius: 25%;
+         border-radius: 10%;
          height: 15rem;
   }
   &__contents{
-    background: yellow;
+
     height: 15rem;
     display:flex;
     flex-direction:row;
     justify-content: flex-end;
     align-items: center;
+  }
+  &__button{
+    padding-top: 3rem;
 
   }
 }
