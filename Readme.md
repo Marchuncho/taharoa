@@ -43,11 +43,11 @@ Ademas el proyecto cuenta con una zona de Header donde se incluye	una barra de n
 ##	Wireframe de la vista principal del proyecto.
 
 
-	![](assets/img/taharoa1.jpg)
+	![](assets/images/taharoa1.jpg)
 
 ##	Logotitpo
 
-		![](assets/img/LogotipoTaharoa.jpg)
+		![](assets/images/LogotipoTaharoa.jpg)
 
 ##	Breve guía de estilo:
 
