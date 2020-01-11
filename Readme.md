@@ -13,9 +13,9 @@ comun.
 
 ## Descripción breve del proyecto
 
--	El proyecto a realizarse es la creacion de la imagen corporativa
--	de esta agrupacion, a continuacion un breve resumen de las partes
--	a realizarse.
+-  El proyecto a realizarse es la creacion de la imagen corporativa
+  de esta agrupacion, a continuacion un breve resumen de las partes
+  a realizarse.
 -	El wireframe definido consta de 5 secciones o article definidos:
 	- Historia agrupacion
 	- Seccion de las instructoras
@@ -23,23 +23,21 @@ comun.
 	- Informacion de las clases
 	- Zona de contacto
 
--	Ademas el proyecto cuenta con una zona de Header donde se incluye
--	una barra de navegacion (menu y slider) y un footer donde se enlazara
--	mediante un icono a una red social perteneciente a la agrupacion
+Ademas el proyecto cuenta con una zona de Header donde se incluye	una barra de navegacion (menu y slider) y un footer donde se enlazara	mediante un icono a una red social perteneciente a la agrupacion
 
 ## Estrategia:
 
 ###	¿Quiénes son los usuarios?
 
--		Los usuarios son empresas que quieran usar los servicios de baile
--		de esta agrupacion y ademas las posibles integrantes de la agrupacion.
+		Los usuarios son empresas que quieran usar los servicios de baile
+		de esta agrupacion y ademas las posibles integrantes de la agrupacion.
 
 ###	¿Cuál debería ser la conversión de éstos?
 
--		El objetivo de la web tiene varios items, el primero es que la web sea -    informativa
--		a los potenciales usuarios que la visiten, el segundo objetivo es atraer a -posibles
--		integrantes para que se puedan integrar de manera definitiva a la -agrupacion o en
--		su defecto sirva de manera de recreacion.
+		El objetivo de la web tiene varios items, el primero es que la web sea -    informativa
+		a los potenciales usuarios que la visiten, el segundo objetivo es atraer a -posibles
+		integrantes para que se puedan integrar de manera definitiva a la -agrupacion o en
+		su defecto sirva de manera de recreacion.
 
 
 ##	Wireframe de la vista principal del proyecto.
@@ -80,8 +78,8 @@ comun.
 ## tamaños de fuentes
 
 
-$xx-large: 70px;
-$x-large: 30px;
-$large: 18px;
-$medium: 16px;
-$small: 12px;
+-$xx-large: 70px;
+-$x-large: 30px;
+-$large: 18px;
+-$medium: 16px;
+-$small: 12px;
