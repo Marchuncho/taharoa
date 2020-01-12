@@ -14,14 +14,14 @@
   }
 }
 .cursos{
-height: 40rem;
+height: auto;
   &__imgs img{
          border-radius: 10%;
-         height: 15rem;
+         height: auto;
   }
   &__contents{
 
-    height: 15rem;
+    height: auto;
     display:flex;
     flex-direction:row;
     justify-content: flex-end;
