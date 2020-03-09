@@ -9715,7 +9715,7 @@ h1 {
 }
 
 h2 {
-  color: #fff;
+  color: #6c6e70;
   font-family: "Playfair Display", serif;
   font-weight: 700;
   font-size: 40px;
@@ -9856,11 +9856,6 @@ li {
   text-align: center;
 }
 
-a:hover {
-  color: #fff;
-  text-decoration: none !important;
-}
-
 nav {
   width: 100%;
   height: auto;
@@ -9946,10 +9941,6 @@ nav {
   padding-top: 3rem;
 }
 
-.About {
-  background-color: #75AABF !important;
-}
-
 .About__button {
   text-align: center;
   padding: 3rem;
@@ -10005,13 +9996,14 @@ iframe {
 }
 
 .button2 {
-  color: #fff;
+  color: #6c6e70;
   font-size: 40px;
-  background-color: #75AABF;
   border-radius: 10px;
-  border: 1px solid #fff;
+  border: 1px solid #6c6e70;
   padding-left: 1rem;
   padding-right: 1rem;
+  text-decoration: none;
+  list-style: none;
 }
 
 .button1 {

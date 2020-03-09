@@ -1,11 +1,12 @@
 .button2 {
-    color: $white;
+    color: $nickel;
     font-size: $x-large;
-    background-color: $fondoabout;
     border-radius: 10px;
-    border: 1px solid $white;
+    border: 1px solid $nickel;
     padding-left: 1rem;
     padding-right: 1rem;
+    text-decoration: none;
+    list-style: none;
   }
   .button1 {
       color: $white;
