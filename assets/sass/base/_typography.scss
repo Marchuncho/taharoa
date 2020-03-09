@@ -1,17 +1,25 @@
 .tittle__logo {
   color: $white !important;
   font-size: $x-large;
-  font-family: $playfair;
+  font-family: $monse;
   font-weight: $boldblack;
 }
 
 .tittle__links {
   color: $white !important;
   font-size: $large;
-  font-family: $playfair;
+  font-family: $monse;
+  font-weight: $boldblack;
+  opacity: .8!important;
+
+}
+.textPrincipal p{
+  text-align: center;
+  color: $white;
+  font-family: $monse;
+  font-size: $large;
   font-weight: $bold;
 }
-
 h1 {
   color: $raisin-black;
   font-family: $playfair;
@@ -20,6 +28,13 @@ h1 {
   text-align: center;
   padding-top: 3rem;
   padding-bottom: 3rem;
+}
+.textPrincipal__title{
+  color: $white !important;
+  font-size: $xxx-large;
+  font-family: $monse;
+  font-weight: $boldblack;
+  text-decoration: overline underline;
 }
 h2 {
   color: $white;
@@ -100,3 +115,25 @@ li {
     font-size: $medium;
     text-align: center;
   }
+.headerinicio{
+  &__TituloSecundario{
+    color: $white;
+    font-family: $monse;
+    font-size: $x-large;
+    font-weight: $bold;
+    text-shadow: 0.5rem 0.5rem 0.5rem $fondoboton;
+    text-align: center;
+    padding-top: 0;
+    padding-bottom: 6rem;
+  }
+  &__TituloPrincipal{
+      color: $white;
+      font-family: $monse;
+      font-size: $xx-large;
+      font-weight: $boldblack;
+      text-align: left;
+      padding-left: 4rem;
+      padding-top: 0;
+      text-shadow: 0.5rem 0.5rem 0.5rem $fondoboton;
+  }
+}

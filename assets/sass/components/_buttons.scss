@@ -54,3 +54,14 @@
                             padding-left: 1rem;
                             padding-right: 1rem;
                           }
+  .buttonIndex{
+    color: $white;
+    font-size: $x-large;
+    border-radius: 2rem;
+    border: 4px solid $white;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background-color: $fondoboton;
+    text-decoration: none;
+    list-style: none;
+  }
