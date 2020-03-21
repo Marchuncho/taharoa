@@ -152,7 +152,15 @@ sup {
   top: -0.5em;
 }
 
-
+a {
+  color: #007bff;
+  text-decoration: none;
+  background-color: transparent;
+}
+a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
 
 a:not([href]):not([tabindex]) {
   color: inherit;
@@ -9658,7 +9666,14 @@ li {
 }
 
 a {
-  text-decoration-color: none;
+  color: none !important;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+a:hover {
+  color: none !important;
+  text-decoration: none;
 }
 
 * {
@@ -9677,7 +9692,6 @@ a {
   font-size: 20px;
   font-family: "Montserrat", sans-serif;
   font-weight: 900;
-  opacity: 0.8 !important;
 }
 
 .textPrincipal p {
@@ -9764,7 +9778,7 @@ h5 {
 h6 {
   color: #fff;
   font-family: "Montserrat", sans-serif;
-  font-size: 16px;
+  font-size: 25px;
   font-weight: 400;
   text-align: center;
   padding-bottom: 2rem;
@@ -9815,6 +9829,20 @@ li {
   text-shadow: 0.5rem 0.5rem 0.5rem #A66E4E;
 }
 
+.Instructora__descripcion li {
+  color: #222323;
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  font-size: 20px;
+  text-align: center;
+}
+
+hr {
+  font-size: 100px;
+  color: #038C7F;
+  width: 100%;
+}
+
 .header_hero {
   background-image: url("../images/header3.jpg");
   background-repeat: no-repeat;
@@ -9829,7 +9857,7 @@ li {
   background-image: url("../images/headersuperior3.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 25rem;
+  height: 30rem;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -9899,20 +9927,7 @@ nav {
   }
 }
 .Instructora {
-  background-color: #d76c69;
   height: auto;
-}
-
-.PhotographyGalery img {
-  width: 100%;
-  height: 10rem;
-}
-
-.PhotographyGalery {
-  background-color: #94CEF2;
-}
-.PhotographyGalery__presentaciones img {
-  border-radius: 25px;
 }
 
 .cursos {
@@ -9947,6 +9962,26 @@ nav {
 }
 .form__contacto {
   text-align: center;
+}
+
+.bg_instructoras {
+  background-image: url("../images/bg-cardschicas.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+}
+
+.BotonContacto_instructora {
+  padding-top: 3rem;
+  padding-bottom: 4rem;
+  text-align: center;
+}
+
+.hoover:hover {
+  -webkit-transform: scale(1.01);
+  -ms-transform: scale(1.01);
+  transform: scale(1.01);
+  box-shadow: 0.8rem 0.8rem 0.8rem #A66E4E;
 }
 
 .footer {
@@ -9988,7 +10023,7 @@ iframe {
 }
 
 .button2 {
-  color: #6c6e70;
+  color: #6c6e70 !important;
   font-size: 40px;
   border-radius: 10px;
   border: 1px solid #6c6e70;
@@ -9999,17 +10034,26 @@ iframe {
 }
 
 .button1 {
-  color: #fff;
+  color: #fff !important;
   font-size: 40px;
   background-color: #038C7F;
   border-radius: 10px;
-  border: 2px solid #fff;
+  border: 4px solid #fff;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.buttonContactoInstructora {
+  color: #fff !important;
+  font-size: 40px;
+  border-radius: 10px;
+  border: 4px solid #fff;
   padding-left: 1rem;
   padding-right: 1rem;
 }
 
 .button3 {
-  color: #121619;
+  color: #121619 !important;
   font-size: 20px;
   background-color: rgba(0, 0, 0, 0.03);
   border-radius: 10px;
@@ -10019,7 +10063,7 @@ iframe {
 }
 
 .button_formulario {
-  color: #fff;
+  color: #fff !important;
   font-size: 20px;
   background-color: rgba(0, 0, 0, 0.03);
   border-radius: 10px;
@@ -10029,7 +10073,7 @@ iframe {
 }
 
 .button_perfilModal {
-  color: #6c6e70;
+  color: #6c6e70 !important;
   font-size: 20px;
   background-color: #fff;
   border-radius: 10px;
@@ -10039,7 +10083,7 @@ iframe {
 }
 
 .buttonclases {
-  color: #121619;
+  color: #121619 !important;
   font-size: 30px;
   background-color: #fff;
   border-radius: 10px;
@@ -10049,13 +10093,25 @@ iframe {
 }
 
 .buttonIndex {
-  color: #fff;
+  color: #fff !important;
   font-size: 40px;
-  border-radius: 2rem;
+  border-radius: 10px;
   border: 4px solid #fff;
   padding-left: 1rem;
   padding-right: 1rem;
   background-color: #A66E4E;
+  text-decoration: none;
+  list-style: none;
+}
+
+.buttonInicioIntructoras {
+  color: #6c6e70 !important;
+  font-size: 40px;
+  border-radius: 10px;
+  border: 4px solid #A66E4E;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  background-color: #fff;
   text-decoration: none;
   list-style: none;
 }

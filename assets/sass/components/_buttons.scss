@@ -1,5 +1,5 @@
 .button2 {
-    color: $nickel;
+    color: $nickel!important;
     font-size: $x-large;
     border-radius: 10px;
     border: 1px solid $nickel;
@@ -9,17 +9,24 @@
     list-style: none;
   }
   .button1 {
-      color: $white;
+      color: $white!important;
       font-size: $x-large;
       background-color: $verdoso;
       border-radius: 10px;
-      border: 2px solid $white;
+      border: 4px solid $white;
       padding-left: 1rem;
       padding-right: 1rem;
         }
-
+        .buttonContactoInstructora {
+            color: $white!important;
+            font-size: $x-large;
+            border-radius: 10px;
+            border: 4px solid $white;
+            padding-left: 1rem;
+            padding-right: 1rem;
+              }
         .button3 {
-            color: $eerie-black;
+            color: $eerie-black!important;
             font-size: $large;
             background-color: rgba(0, 0, 0, 0.03);
             border-radius: 10px;
@@ -28,7 +35,7 @@
             padding-right: 1rem;
               }
               .button_formulario {
-                  color: $white;
+                  color: $white!important;
                   font-size: $large;
                   background-color: rgba(0, 0, 0, 0.03);
                   border-radius: 10px;
@@ -38,7 +45,7 @@
                     }
 
                     .button_perfilModal {
-                        color: $nickel;
+                        color: $nickel!important;
                         font-size: $large;
                         background-color: $white;
                         border-radius: 10px;
@@ -47,7 +54,7 @@
                         padding-right: 1rem;
                           }
                           .buttonclases{
-                            color: $eerie-black;
+                            color: $eerie-black!important;
                             font-size: 30px;
                             background-color: $white;
                             border-radius: 10px;
@@ -56,13 +63,25 @@
                             padding-right: 1rem;
                           }
   .buttonIndex{
-    color: $white;
+    color: $white!important;
     font-size: $x-large;
-    border-radius: 2rem;
+    border-radius: 10px;
     border: 4px solid $white;
     padding-left: 1rem;
     padding-right: 1rem;
     background-color: $fondoboton;
     text-decoration: none;
     list-style: none;
+  }
+  .buttonInicioIntructoras{
+    color: $nickel!important;
+    font-size: $x-large;
+    border-radius: 10px;
+    border: 4px solid $fondoboton;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background-color: $white;
+    text-decoration: none;
+    list-style: none;
+
   }

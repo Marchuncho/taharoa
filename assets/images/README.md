@@ -1,3 +1,16 @@
+PARTE 1: mega.nz/#!yhUxBYBA!0mCaee-Hv1Qo1SPt4vKv201DJeoPSyLx51z5bd_fz3U
+
+PARTE 2: mega.nz/#!ykNT3QRI!6SFJBOTsg_7eujX7yltDlWs_OLaI2pwimTFhH0-X1ho
+
+PARTE 3: mega.nz/#!e9MTWQYC!h-tyWhh0Nu_CVFnVX5Spjaw_naaqRzaidqrMGn-Wfok
+
+PARTE 4: mega.nz/#!71FhBaiQ!y4y0Xo7V8OBN-WCUjvZTTLhw-huvxeiyGtJfYh89tnA
+
+PARTE 5: mega.nz/#!GgcDjYqR!Tw5UDUUaVsT5pyn4KCYhLe2aaDIRzGVhoI7fcbKeQLk
+
+PARTE 6: mega.nz/#!LsExjSQR!Lwx93wDujedHWyfrYqtKIsF54eMv2PvT3qaoReq5f1Q
+
+ 
 # TAHAROA - Escuela de baile Rapa nui
 
 ##¿Es un proyecto personal o para un tercero?

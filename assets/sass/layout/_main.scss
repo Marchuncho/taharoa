@@ -1,23 +1,11 @@
 .Instructora{
-  background-color: $rudy-pink;
   height: auto;
-
-}
-.PhotographyGalery img{
-  width: 100%;
-  height: 10rem;
-}
-.PhotographyGalery{
-  background-color: $fondogalery;
-    &__presentaciones img{
-    border-radius: 25px;
-  }
 }
 .cursos{
-height: auto;
+  height: auto;
   &__imgs img{
-         border-radius: 10%;
-         height: auto;
+    border-radius: 10%;
+    height: auto;
   }
   &__contents{
 
@@ -34,7 +22,7 @@ height: auto;
 }
 
 .About{
-//  background-color: $fondoabout !important;
+
 }
 .About__button{
   text-align: center;
@@ -50,7 +38,27 @@ height: auto;
   justify-content: center;
 
   &__contacto{
-  text-align: center;
+    text-align: center;
 
+  }
 }
+.bg_instructoras{
+  background-image: url("../images/bg-cardschicas.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+}
+.BotonContacto_instructora{
+  padding-top: 3rem;
+  padding-bottom: 4rem;
+  text-align: center;
+}
+.hoover:hover{
+
+  -webkit-transform: scale(1.01);
+  -ms-transform: scale(1.01);
+  transform: scale(1.01);
+  //box-shadow: inset 0 0 0 4px #555953;
+  box-shadow: 0.8rem 0.8rem 0.8rem $fondoboton;
+
 }

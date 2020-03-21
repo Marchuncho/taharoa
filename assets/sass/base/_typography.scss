@@ -10,7 +10,7 @@
   font-size: $large;
   font-family: $monse;
   font-weight: $boldblack;
-  opacity: .8!important;
+
 
 }
 .textPrincipal p{
@@ -89,7 +89,7 @@ h5{
 h6{
   color: $white;
   font-family: $monse;
-  font-size: $medium;
+  font-size: $large-p;
   font-weight: $ligth;
   text-align: center;
   padding-bottom: 2rem;
@@ -136,4 +136,16 @@ li {
       padding-top: 0;
       text-shadow: 0.5rem 0.5rem 0.5rem $fondoboton;
   }
+}
+.Instructora__descripcion li{
+  color: $raisin-black;
+  font-family: $playfair;
+  font-weight: $bold;
+  font-size: $large;
+  text-align: center;
+}
+hr{
+  font-size: $xxx-large;
+  color: $verdoso;
+  width: 100%;
 }
