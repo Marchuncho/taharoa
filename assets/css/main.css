@@ -9843,6 +9843,15 @@ hr {
   width: 100%;
 }
 
+.titleCards {
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+  font-weight: 900;
+  text-align: cente;
+  text-shadow: 0.5rem 0.5rem 0.5rem #A66E4E;
+}
+
 .header_hero {
   background-image: url("../images/header3.jpg");
   background-repeat: no-repeat;
@@ -9929,6 +9938,9 @@ nav {
 .Instructora {
   height: auto;
 }
+.Instructora__boton {
+  text-align: center;
+}
 
 .cursos {
   height: auto;
@@ -9978,10 +9990,15 @@ nav {
 }
 
 .hoover:hover {
-  -webkit-transform: scale(1.01);
-  -ms-transform: scale(1.01);
   transform: scale(1.01);
-  box-shadow: 0.8rem 0.8rem 0.8rem #A66E4E;
+}
+
+.buttonContactoInstructora:hover {
+  background-color: #A66E4E;
+}
+
+.card {
+  box-shadow: 0.4rem 0.4rem 0.4rem #fff;
 }
 
 .footer {

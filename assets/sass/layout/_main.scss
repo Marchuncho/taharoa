@@ -1,5 +1,8 @@
 .Instructora{
   height: auto;
+  &__boton{
+    text-align: center;
+  }
 }
 .cursos{
   height: auto;
@@ -53,12 +56,19 @@
   padding-bottom: 4rem;
   text-align: center;
 }
-.hoover:hover{
+ .hoover:hover{
+   -webkit-transform: scale(1.01);
+   -ms-transform: scale(1.01);
+   transform: scale(1.01);
 
-  -webkit-transform: scale(1.01);
-  -ms-transform: scale(1.01);
-  transform: scale(1.01);
-  //box-shadow: inset 0 0 0 4px #555953;
-  box-shadow: 0.8rem 0.8rem 0.8rem $fondoboton;
+ }
+.buttonContactoInstructora:hover{
+  background-color: $fondoboton;
+}
+.card{
+  box-shadow: 0.4rem 0.4rem 0.4rem $white;
+}
+.button_perfilModal:hover{
+  background-color: $fondoboton;
 
 }
