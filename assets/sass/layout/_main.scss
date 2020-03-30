@@ -33,20 +33,26 @@
 
 }
 
-.form{
-  background-color: $verdoso;
-  height: 15rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+ .form{
+   background-color: $verdoso;
+   height: 15rem;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
 
-  &__contacto{
-    text-align: center;
+   &__contacto{
+     text-align: center;
 
-  }
-}
+   }
+ }
 .bg_instructoras{
   background-image: url("../images/bg-cardschicas.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+}
+.bg_page_contacto{
+  background-image: url("../images/bg_contacto.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   height: auto;
@@ -56,19 +62,7 @@
   padding-bottom: 4rem;
   text-align: center;
 }
- .hoover:hover{
-   -webkit-transform: scale(1.01);
-   -ms-transform: scale(1.01);
-   transform: scale(1.01);
 
- }
-.buttonContactoInstructora:hover{
-  background-color: $fondoboton;
-}
 .card{
   box-shadow: 0.4rem 0.4rem 0.4rem $white;
-}
-.button_perfilModal:hover{
-  background-color: $fondoboton;
-
 }

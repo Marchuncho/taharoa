@@ -36,13 +36,13 @@
             padding-right: 1rem;
               }
               .button_formulario {
-                  color: $white!important;
-                  font-size: $large;
-                  background-color: rgba(0, 0, 0, 0.03);
-                  border-radius: 10px;
-                  border: 2px solid $eerie-black;
-                  padding-left: 1rem;
-                  padding-right: 1rem;
+                color: $white!important;
+                font-size: $large-p;
+                border-radius: 10px;
+                border: 4px solid $white;
+                padding-left: 1rem;
+                padding-right: 1rem;
+                background-color: transparent!important;
                     }
 
                     .button_perfilModal {
@@ -84,4 +84,17 @@
     background-color: $white;
     text-decoration: none;
     list-style: none;
+  }
+  .hoover:hover{
+    -webkit-transform: scale(1.01);
+    -ms-transform: scale(1.01);
+    transform: scale(1.01);
+
+  }
+  .buttonContactoInstructora:hover{
+   background-color: $fondoboton;
+  }
+  .button_perfilModal:hover{
+   background-color: $fondoboton;
+
   }

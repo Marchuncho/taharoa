@@ -9852,6 +9852,10 @@ hr {
   text-shadow: 0.5rem 0.5rem 0.5rem #A66E4E;
 }
 
+.text_label {
+  color: #fff;
+}
+
 .header_hero {
   background-image: url("../images/header3.jpg");
   background-repeat: no-repeat;
@@ -9983,18 +9987,17 @@ nav {
   height: auto;
 }
 
+.bg_page_contacto {
+  background-image: url("../images/bg_contacto.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+}
+
 .BotonContacto_instructora {
   padding-top: 3rem;
   padding-bottom: 4rem;
   text-align: center;
-}
-
-.hoover:hover {
-  transform: scale(1.01);
-}
-
-.buttonContactoInstructora:hover {
-  background-color: #A66E4E;
 }
 
 .card {
@@ -10081,12 +10084,12 @@ iframe {
 
 .button_formulario {
   color: #fff !important;
-  font-size: 20px;
-  background-color: rgba(0, 0, 0, 0.03);
+  font-size: 25px;
   border-radius: 10px;
-  border: 2px solid #121619;
+  border: 4px solid #fff;
   padding-left: 1rem;
   padding-right: 1rem;
+  background-color: transparent !important;
 }
 
 .button_perfilModal {
@@ -10131,6 +10134,20 @@ iframe {
   background-color: #fff;
   text-decoration: none;
   list-style: none;
+}
+
+.hoover:hover {
+  -webkit-transform: scale(1.01);
+  -ms-transform: scale(1.01);
+  transform: scale(1.01);
+}
+
+.buttonContactoInstructora:hover {
+  background-color: #A66E4E;
+}
+
+.button_perfilModal:hover {
+  background-color: #A66E4E;
 }
 
 /*# sourceMappingURL=main.css.map */
