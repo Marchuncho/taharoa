@@ -1,0 +1,33 @@
+.bg_page_clases{
+  background-image: url("../images/bg_pageclase.jpg");
+ background-repeat: no-repeat;
+ background-size: cover;
+  height: auto;
+  width: auto   ;
+}
+iframe{
+  padding-bottom: 2rem;
+}
+
+.courses{
+&__informationClass{
+display: flex;
+flex-direction: column;
+align-items: center;
+min-height: auto;
+}
+  &__info {
+    height: 20rem;
+    width: 100%;
+    background-color: $fondocajaparrafo;
+    opacity: 0.4;
+  }
+  &__parrafo{
+    position: relative;
+    top: -18rem;
+  }
+}
+.contenedorMaps{
+  position: relative;
+  top: -10rem;
+}

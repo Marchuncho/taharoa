@@ -11,7 +11,6 @@
     height: auto;
   }
   &__contents{
-
     height: auto;
     display:flex;
     flex-direction:row;
@@ -57,12 +56,12 @@
   background-size: cover;
   height: auto;
 }
+
 .BotonContacto_instructora{
   padding-top: 3rem;
   padding-bottom: 4rem;
   text-align: center;
 }
-
 .card{
   box-shadow: 0.4rem 0.4rem 0.4rem $white;
 }

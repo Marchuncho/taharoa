@@ -9721,7 +9721,7 @@ h1 {
 }
 
 h2 {
-  color: #6c6e70;
+  color: #fff;
   font-family: "Playfair Display", serif;
   font-weight: 700;
   font-size: 40px;
@@ -9766,13 +9766,14 @@ h3 {
 }
 
 h5 {
-  color: #222323;
-  font-family: "Playfair Display", serif;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
   font-weight: 700;
-  font-size: 40px;
+  font-size: 70px;
   text-align: center;
   padding-top: 3rem;
   padding-bottom: 3rem;
+  text-shadow: 0.8rem 0.8rem 0.8rem #fff;
 }
 
 h6 {
@@ -9800,11 +9801,11 @@ li {
   text-align: center;
 }
 
-.colorLetra {
+.direccioncursos {
   color: #fff;
   font-family: "Montserrat", sans-serif;
-  font-weight: 16px;
-  font-size: 16px;
+  font-weight: 700;
+  font-size: 20px;
   text-align: center;
 }
 
@@ -9854,6 +9855,22 @@ hr {
 
 .text_label {
   color: #fff;
+  font-weight: 700;
+}
+
+.colorletra_parrafo {
+  color: #222323;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+  font-size: 16px;
+  text-align: justify;
+}
+
+.courses__parrafo li {
+  color: #000;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
 }
 
 .header_hero {
@@ -9899,7 +9916,7 @@ nav {
   background-image: url("../images/nav_inicio.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 5rem;
+  height: auto;
 }
 
 .scale-in-left {
@@ -10004,6 +10021,65 @@ nav {
   box-shadow: 0.4rem 0.4rem 0.4rem #fff;
 }
 
+.bg_page_historia {
+  background-image: url("../images/bg_historia.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.history__parrafo {
+  background-color: #fff;
+  width: 100%;
+  height: 100%;
+  opacity: 0.8;
+  padding-bottom: 3rem;
+}
+.history__parrafo::before {
+  background-color: #fff;
+}
+
+.contacto {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  text-align: center;
+}
+
+.bg_page_clases {
+  background-image: url("../images/bg_pageclase.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+  width: auto;
+}
+
+iframe {
+  padding-bottom: 2rem;
+}
+
+.courses__informationClass {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: auto;
+}
+.courses__info {
+  height: 20rem;
+  width: 100%;
+  background-color: #8DCBF2;
+  opacity: 0.4;
+}
+.courses__parrafo {
+  position: relative;
+  top: -18rem;
+}
+
+.contenedorMaps {
+  position: relative;
+  top: -10rem;
+}
+
 .footer {
   background-image: url(../images/footer2.jpg);
   height: 10rem;
@@ -10021,25 +10097,6 @@ nav {
 }
 .footer__icon--color {
   color: #fff;
-}
-
-.contacto {
-  background-color: #038C7F;
-}
-
-.courses {
-  background-color: #d76c69;
-}
-.courses__info {
-  padding-bottom: 2rem;
-}
-.courses__galery img {
-  width: 100%;
-  border-radius: 20%;
-}
-
-iframe {
-  padding-bottom: 2rem;
 }
 
 .button2 {
